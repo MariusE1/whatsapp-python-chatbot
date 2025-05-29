@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Directory for storing conversations
+# Directory for storing conversations 
 CONVERSATIONS_DIR = 'conversations'
 if not os.path.exists(CONVERSATIONS_DIR):
     os.makedirs(CONVERSATIONS_DIR)
